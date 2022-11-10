@@ -1,17 +1,17 @@
 <div class="card">
     {% if post.image %}
     <div class="card-image">
-        <img src="{{ post.image }}" alt="{{ post.title }}">
+        <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
     </div>
     {% else %}
     <header class="card-header">
-        <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+        <a class="card-header-title" href="{{ post.url }}">{{ post.title}}</a>
     </header>
     {% endif %}
     <div class="card-content">
         <div class="content">
             {% if post.image %}
-            <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+            <a class="title is-4" href="{{ post.url }}">{{ post.title}}</a>
             {% endif %}
             {% if post.summary %}
                 {{ post.summary | markdownify }}
@@ -20,7 +20,7 @@
             {% endif %}
         </div>
         <div class="has-text-centered">
-            <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">Continua llegint</a>
+            <a href="{{ post.url }}" class="button is-primary">Continua llegint</a>
         </div>
     </div>
     <footer class="card-footer">
