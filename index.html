@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Happy Jekylling!"
 ---
 
 <section class="section">
@@ -8,10 +7,10 @@ title: "Happy Jekylling!"
       <div class="columns is-multiline">
         <div class="columns is-multiline">
             <div class="column is-12">
-                {% include pagination.html %}
-            </div>
+            <p class="title is-4">Últimes notícies</p>
+        </div>
             {% for post in paginator.posts %}
-            <div class="column is-12">
+            <div class="column is-4">
                 {% include post-card.html %}
             </div>
             {% endfor %}

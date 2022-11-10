@@ -1,7 +1,7 @@
 url: "https://escacscomtal.cat" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Escacs Comtal Club" # the name of your site, e.g. ACME Corp.
-paginate: 5
+paginate: 3
 lang: "ca"
 plugins:
   - jekyll-seo-tag
