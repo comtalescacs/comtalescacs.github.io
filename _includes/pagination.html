@@ -1,0 +1,21 @@
+<nav class="pagination is-centered">
+    {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination-previous is-info">Entrades més recents</a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination-next is-info">Entrades més antigues</a>
+    {% endif %}
+    <ul class="pagination-list">
+        {% if paginator.total_pages > 1 %}
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <li><a class="pagination-link is-current">{{ page }}</a></li>
+        {% elsif page == 1 %}
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | split: '/' | pop | join: '/' }}" class="pagination-link">{{ page }}</a></li>
+        {% else %}
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </ul>
+</nav>
