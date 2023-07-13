@@ -1,19 +1,11 @@
 toc:
-  - title: Inici
-    url: /
   - title: El Club
     subfolderitems:
-      - page: Piece 1
-        url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
-      - page: Piece 3
-        url: /piece3.html
-  - title: Group 3
-    subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
+      - page: Història
+        url: /historia
+      - page: Junta Directiva
+        url: /junta
+  - title: Fes-te'n soci
+    url: /soci
+  - title: Contacte
+    url: /contacte

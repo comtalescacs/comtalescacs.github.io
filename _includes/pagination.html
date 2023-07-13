@@ -11,9 +11,9 @@
         {% if page == paginator.page %}
         <li><a class="pagination-link is-current">{{ page }}</a></li>
         {% elsif page == 1 %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | split: '/' | pop | join: '/' }}" class="pagination-link">{{ page }}</a></li>
+        <li><a href="{{ '/' | relative_url }}" class="pagination-link">{{ page }}</a></li>
         {% else %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+        <li><a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
         {% endif %}
         {% endfor %}
         {% endif %}
