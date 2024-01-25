@@ -1,6 +1,8 @@
 toc:
   - title: El Club
     subfolderitems:
+      - page: Ordre de forces
+        url: /forces
       - page: Història
         url: /historia
       - page: Junta Directiva
