@@ -1,8 +1,22 @@
 url: "https://escacscomtal.cat" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Escacs Comtal Club" # the name of your site, e.g. ACME Corp.
-paginate: 3
 lang: "ca"
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginate-v2
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+ # extension: htm
+ # indexpage: 'default'
+  trail: 
+    before: 2
+    after: 2
