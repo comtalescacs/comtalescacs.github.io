@@ -10,20 +10,20 @@
     {% endif %}
     <div class="card-content">
         <div class="content">
-            {% if post.image %}
+            <!-- {% if post.image %}
             <a class="title is-4" href="{{ post.url }}">{{ post.title}}</a>
-            {% endif %}
-            {% if post.summary %}
+            {% endif %} -->
+            <!-- {% if post.summary %}
                 {{ post.summary | markdownify }}
             {% else %}
                 <p>{{ post.excerpt }}</p>
-            {% endif %}
+            {% endif %} -->
         </div>
-        <div class="has-text-centered">
+        <!-- <div class="has-text-centered">
             <a href="{{ post.url }}" class="button is-primary">Continua llegint</a>
-        </div>
+        </div> -->
     </div>
-    <footer class="card-footer">
+    <!-- <footer class="card-footer">
         <p class="card-footer-item">Publicat el {{ post.date | date: "%d/%m/%Y" }}</p>
-    </footer>
+    </footer> -->
 </div>

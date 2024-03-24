@@ -1,25 +1,27 @@
 ---
 layout: default
 pagination:
-  enabled: true
+enabled: true
 ---
 
-<section class="section">
-    <div class="container">
-      <div class="columns is-multiline">
-        <div class="columns is-multiline">
-            <div class="column is-12">
-            <p class="title is-4">Últimes notícies</p>
-        </div>
-            {% for post in paginator.posts %}
-            <div class="column is-4">
-                {% include post-card.html %}
-            </div>
-            {% endfor %}
-            <div class="column is-12">
-                {% include pagination.html %}
-            </div>
-          </div>
-        </div>
+<div class="container">
+  <div class="column is-12">
+    <div class="content">
+      <h1 class="has-text-centered">Propers tornejos</h1>
     </div>
-</section>
+  </div>
+  <section class="section">
+    <div class="columns is-multiline">
+      <div class="columns is-multiline">
+        {% for post in site.categories.tornejos %}
+        <div class="column is-4">
+          {% include post-card.html %}
+        </div>
+        {% endfor %}
+        <!-- <div class="column is-12">
+                {% include pagination.html %}
+            </div> -->
+      </div>
+    </div>
+  </section>
+</div>

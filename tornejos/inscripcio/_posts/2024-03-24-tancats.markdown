@@ -1,0 +1,52 @@
+---
+layout: post
+title: "IV Tancats del Poble-Sec"
+image: /assets/images/2024-03-24-tancats.jpeg
+skipTitle: true
+---
+
+
+**Sistema i ritme de joc:**
+
+1. Tancat MC (+2150 ELO Català)
+2. Tancat Grup A (+1900 ELO Català)
+3. Tancat Grup B (-1900 ELO Català)
+
+El torneig es desenvoluparà en 3 grups tancats de 10 jugadors cada un.
+El límit d’ELO és aproximat i es farà segons les inscripcions, sempre tenint en compte els trams
+proposats. Per tant, l’organització no garanteix que els trams dels Grups siguin exactes.
+
+Es jugarà en 9 rondes pel Sistema Round Robin. Torneigs vàlids per ELO Català i FIDE.
+El ritme de joc serà de 90 minuts amb un increment de 30 segons per jugada.
+
+**Inscripcions:**
+
+Inscripcions a comtalescacs@gmail.com.
+
+**Horaris i dies de joc:**
+
+Les rondes es jugaran els dissabtes a les 09h30 del matí.
+
+- Ronda 1: 20 d'abril
+- Ronda 2: 27 d'abril
+- Ronda 3: 4 de maig
+- Ronda 4: 11 de maig
+- Ronda 5: 18 de maig
+- Ronda 6: 25 de maig
+- Ronda 7: 1 de juny
+-  Ronda 8: 8 de juny
+- Ronda 9: 15 de juny
+
+Aquells jugadors que no s’hagin presentat passat 1 hora de l’inici perdran la partida.
+
+**Local de joc:**
+
+El torneig es jugarà al local de la Coordinadora d'Entitats del Poble Sec, **Carrer d'Elkano 24, Barcelona**.
+
+<a class="button is-info" href="/assets/docs/bases-tancats-2024.pdf" target="_blank">Bases</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr889030.aspx" target="_blank">Chess-Results Tancat MC</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr889031.aspx" target="_blank">Chess-Results Tancat Grup A</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr889033.aspx" target="_blank">Chess-Results Tancat Grup B</a>

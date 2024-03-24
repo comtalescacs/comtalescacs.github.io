@@ -4,15 +4,19 @@ layout: default
 
 <div class="content">
 
+  {% if page.skipTitle != true %}
   <h1>{{ page.title }}</h1>
+  {% endif %}
 
-    <p>Publicat el {{ page.date | date: "%d/%m/%Y" }}</p>
 
-    <img style="max-height:500px" src="{{ page.image }}" alt="{{ page.title }}">
 
-    <p>
+  <div class="columns">
+    <div class="column is-4">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+    <div class="column is-8">
       {{ content }}
-    </p>
-
-    
+    </div>
+  </div>
+  <p>Publicat el {{ page.date | date: "%d/%m/%Y" }}</p>
 </div>
