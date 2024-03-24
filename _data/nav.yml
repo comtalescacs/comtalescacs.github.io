@@ -2,13 +2,19 @@ toc:
   - title: El Club
     subfolderitems:
       - page: Ordre de forces
-        url: /forces
+        url: /club/forces
       - page: Història
-        url: /historia
+        url: /club/historia
       - page: Junta Directiva
-        url: /junta
+        url: /club/junta
       - page: Estatuts
         url: /assets/docs/estatuts.pdf
+  - title: Lliga Catalana 2024
+    subfolderitems:
+      - page: Calendari
+        url: /lliga/calendari
+      - page: Adreces dels locals de joc
+        url: /lliga/adreces
   - title: Fes-te'n soci
     url: /soci
   - title: Contacte
