@@ -1,0 +1,58 @@
+---
+layout: post
+title: "I Obert Escacs Actius Poble-Sec"
+image: /assets/images/2024-05-25-actiu.jpeg
+skipTitle: true
+published: true
+---
+
+
+**Sistema i ritme de joc:**
+
+15 minuts + 5 segons per jugada.
+
+Vàlid per Elo FIDE Ràpid i Elo Català Ràpid.
+
+Podran participar tots aquells jugadors amb llicència federativa en vigor.
+
+La organització es reserva el dret d'admissió.
+
+**Inscripcions:**
+
+- General: 25€.
+- Menors de 16 anys (nascuts el 2008 i posterior): 20€.
+- Majors de 64 anys: 20€.
+- Socis de l'Escacs Comtal Club: 15€
+
+Queden exempts del pagament aquells jugadors convidats per la organització.
+
+Places limitades per ordre d'inscripció.
+
+<a class="button is-success" href="https://docs.google.com/forms/d/e/1FAIpQLSeMWaV7qXe_ImH2P0MEhYsLkKLvy2n0lMY5zBe0y_yLFPNFjw/viewform" target="_blank">Formulari d'inscripció</a>
+
+**Premis:**
+
+1680€ en total. Els premis estan subjectes a les retencions segons la legislació vigent.
+
+**Horaris i dies de joc:**
+
+Dissabte 22 de Juny de 2024 a les 9:30 hores.
+
+9 rondes a Sistema Suís.
+
+- Matí: 5 rondes. Inici de la 1a ronda a les 9:30 hores.
+- Tarda: 4 rondes. Inici de la 6a ronda a les 16:00 hores.
+
+**Local de joc:**
+
+A la sala d'actes del Centre cívic el Sortidor: **Plaça del Sortidor 12, Barcelona**.
+
+**Organitza l'ESCACS COMTAL CLUB**
+
+**ÀRBITRE PRINCIPAL:** AI Vladimir Zaiats
+
+<a class="button is-success" href="https://docs.google.com/forms/d/e/1FAIpQLSeMWaV7qXe_ImH2P0MEhYsLkKLvy2n0lMY5zBe0y_yLFPNFjw/viewform" target="_blank">Inscripció</a>
+
+<a class="button is-info" href="/assets/docs/2024-05-25-actiu.pdf" target="_blank">Bases</a>
+
+<a class="button is-warning" href="https://chess-results.com/Tnr943610.aspx" target="_blank">Chess-Results</a>
