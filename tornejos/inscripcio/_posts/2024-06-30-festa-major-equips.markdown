@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Obert Escacs Actius Poble-Sec"
+title: "Torneig de Ràpides per equips + botifarrada"
 image: /assets/images/2024-07-21-festa-major-equips.jpeg
 skipTitle: true
 published: true

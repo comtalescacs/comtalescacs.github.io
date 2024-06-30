@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Obert Escacs Actius Poble-Sec"
+title: "Torneig d'Escacs de Passapeces"
 image: /assets/images/2024-07-23-festa-major-passapeces.jpeg
 skipTitle: true
 published: true

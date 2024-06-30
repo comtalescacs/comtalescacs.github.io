@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Obert Escacs Actius Poble-Sec 2"
+title: "Torneig de Ràpides de Festa Major"
 image: /assets/images/2024-07-26-festa-major-rapides.jpeg
 skipTitle: true
 published: true
