@@ -3,7 +3,7 @@ layout: post
 title: "I Obert Escacs Actius Poble-Sec"
 image: /assets/images/2024-05-25-actiu.jpeg
 skipTitle: true
-published: true
+published: false
 ---
 
 

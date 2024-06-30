@@ -5,6 +5,7 @@ lang: "ca"
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
+future: true
 
 # Pagination Settings
 pagination:
