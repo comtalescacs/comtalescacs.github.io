@@ -1,0 +1,29 @@
+<div class="card">
+    <!-- <a href=""> -->
+    <div class="columns">
+        <a href="{{ post.url }}" class="column is-6"
+            style="background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 95%),url({{ post.thumbnail }}) center;min-height: 300px;">
+            <!-- <div class="card-image">
+                <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+            </div> -->
+        </a>
+        <div class="column is-6">
+            <div class="card-content">
+                <div class="content">
+                    {% if post.title %}
+                    <a class="title is-4" href="{{ post.url }}">{{ post.title}}</a>
+                    {% endif %}
+                    <p>
+                        {% if post.summary %}
+                        {{ post.summary | markdownify }}
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="has-text-centered">
+                    <a href="{{ post.url }}" class="button is-primary">Continua llegint</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </a> -->
+</div>

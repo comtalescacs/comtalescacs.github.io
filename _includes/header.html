@@ -1,25 +1,31 @@
 <header class="navigation">
-	<div class="header-top" style="padding: 20px">
+	<!-- <div class="header-top" style="padding: 20px">
 		<div class="container">
 			<div class="columns is-vcentered is-mobile">
 				<div class="column is-one-half has-text-right">
 					<a href="/">
-					<img src="/assets/images/logo.png">
-				</a>
+						<img src="/assets/images/logo.png">
+					</a>
 				</div>
 				<div class="column is-one-half has-text-weight-bold" style="padding-left: 20px;">
-					<a class="is-size-1 has-text-black" href="/">ESCACS <br/> COMTAL <br/> CLUB</a>
+					<a class="is-size-1 has-text-black" href="/">ESCACS <br /> COMTAL <br /> CLUB</a>
 				</div>
 			</div>
 		</div>
-	</div>
-	<nav class="navbar" role="navigation" aria-label="main navigation">
+	</div> -->
+	<nav class="navbar" role="navigation" aria-label="main navigation" style="padding: 20px">
 		<div class="container">
 			<div class="navbar-brand">
-				<!-- <a class="navbar-item" href="/">
-					<img src="/assets/images/logo.png">
-					Escacs Comtal Club
-				</a> -->
+				<div class="columns is-vcentered is-mobile">
+					<div class="column is-one-half has-text-right">
+						<a href="/">
+							<img src="/assets/images/logo.png">
+						</a>
+					</div>
+					<div class="column is-one-half has-text-weight-bold" style="padding-left: 20px;">
+						<a class="is-size-1 has-text-black" href="/">ESCACS <br /> COMTAL <br /> CLUB</a>
+					</div>
+				</div>
 
 				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
 					data-target="navbarBasicExample">
@@ -29,7 +35,8 @@
 				</a>
 			</div>
 
-			<div id="navbarBasicExample" class="navbar-menu">
+			
+			<div id="navbarBasicExample" class="navbar-menu is-vcentered" style="margin: auto;"><!-- Not nice -->
 				<div class="navbar-start is-justify-content-center is-flex-grow-1 is-size-5">
 
 					{% for item in site.data.nav.toc %}

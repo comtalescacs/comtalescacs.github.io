@@ -3,10 +3,14 @@ layout: post
 title: "I Obert Escacs Actius Poble-Sec"
 image: /assets/images/2024-05-25-actiu.jpeg
 skipTitle: true
-published: false
+published: true
 ---
 
-
+{% if page.categories contains 'finalitzats' %}
+Finalitzat
+{% elsif page.categories contains 'enjoc' %}
+En joc
+{% elsif page.categories contains 'inscripcio' %}
 **Sistema i ritme de joc:**
 
 15 minuts + 5 segons per jugada.
@@ -56,3 +60,5 @@ A la sala d'actes del Centre cívic el Sortidor: **Plaça del Sortidor 12, Barce
 <a class="button is-info" href="/assets/docs/2024-05-25-actiu.pdf" target="_blank">Bases</a>
 
 <a class="button is-warning" href="https://chess-results.com/Tnr943610.aspx" target="_blank">Chess-Results</a>
+{% endif %}
+

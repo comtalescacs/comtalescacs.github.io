@@ -3,7 +3,7 @@ layout: post
 title: "Torneig Infantil del Poble-Sec"
 image: /assets/images/2024-03-24-torneig-infantil.jpeg
 skipTitle: true
-published: false
+published: true
 ---
 
 **Sistema i ritme de joc:**

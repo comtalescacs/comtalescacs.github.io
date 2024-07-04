@@ -11,12 +11,19 @@ layout: default
 
 
   <div class="columns">
+    {% if page.image %}
     <div class="column is-4">
       <img src="{{ page.image }}" alt="{{ page.title }}">
     </div>
     <div class="column is-8">
       {{ content }}
     </div>
+    {% else %}
+    <div class="column is-12">
+      {{ content }}
+    </div>
+    {% endif %}
+    
   </div>
   <p>Publicat el {{ page.date | date: "%d/%m/%Y" }}</p>
 </div>

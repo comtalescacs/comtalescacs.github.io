@@ -11,6 +11,8 @@ toc:
         url: /club/junta
       - page: Estatuts
         url: /assets/docs/estatuts.pdf
+  # - title: Tornejos
+  #   url: /tornejos/
   - title: Lliga Catalana 2024
     subfolderitems:
       - page: Calendari

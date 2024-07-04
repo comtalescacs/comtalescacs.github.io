@@ -20,7 +20,3 @@ $family-sans-serif: 'Lato', sans-serif;
 @import "bulma/sass/grid/_all";
 @import "bulma/sass/helpers/_all";
 @import "bulma/sass/layout/_all";
-
-table.is-borderless td, table.is-borderless th {
-    border: 0;
-}

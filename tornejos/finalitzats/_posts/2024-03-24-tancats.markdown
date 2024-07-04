@@ -3,7 +3,7 @@ layout: post
 title: "IV Tancats del Poble-Sec"
 image: /assets/images/2024-03-24-tancats.jpeg
 skipTitle: true
-published: false
+published: true
 ---
 
 
