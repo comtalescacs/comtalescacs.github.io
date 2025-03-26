@@ -1,0 +1,66 @@
+---
+layout: post
+title: "V Tancats del Poble-Sec"
+image: /assets/images/2025-03-26-tancats.jpeg
+skipTitle: true
+published: true
+---
+
+**Sistema i ritme de joc:**
+
+1. Tancat MC (+2150 ELO Català)
+2. Tancat Grup A (+1900 ELO Català)
+3. Tancat Grup B (-1900 ELO Català)
+
+El torneig es desenvoluparà en 3 grups tancats de 10 jugadors cada un.
+El límit d'ELO és aproximat i es farà segons les inscripcions, sempre tenint en compte els trams
+proposats. Per tant, l'organització no garanteix que els trams dels Grups siguin exactes.
+
+Es jugarà en 9 rondes pel Sistema Round Robin. Torneigs vàlids per ELO Català i FIDE.
+El ritme de joc serà de 90 minuts amb un increment de 30 segons per jugada.
+
+**Inscripcions i premis:**
+
+Obert a tots els jugadors amb ELO Català i FIDE.
+Inscripcions a comtalescacs@gmail.com
+
+Tancat MC:
+- Preu: 30€
+- Preu soci Comtal: 20€
+
+Tancat Grup A i B:
+- Preu: 25€
+- Preu soci Comtal: 15€
+
+Trofeu al campió de cada grup.
+Tots els jugadors i jugadores tenen 50% de descompte a l'inscripció del "II Obert Internacional
+d'Escacs Actius del Poble-sec" que es celebra el 21 de juny del 2025.
+Es farà entrega del trofeu en acabar la última partida el 14 de juny.
+
+**Horaris i dies de joc:**
+
+Les rondes es jugaran els dissabtes a les 09h30 del matí.
+
+- Ronda 1: 5 d'abril
+- Ronda 2: 26 d'abril
+- Ronda 3: 3 de maig
+- Ronda 4: 10 de maig
+- Ronda 5: 17 de maig
+- Ronda 6: 24 de maig
+- Ronda 7: 31 de maig
+- Ronda 8: 7 de juny
+- Ronda 9: 14 de juny
+
+Aquells jugadors que no s'hagin presentat passat 1 hora de l'inici perdran la partida.
+
+**Local de joc:**
+
+El torneig es jugarà al local de la Coordinadora d'Entitats del Poble Sec, **Carrer d'Elkano 24, baixos, 08004 Barcelona**.
+
+<a class="button is-info" href="/assets/docs/bases-tancats-2025.pdf" target="_blank">Bases</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr1116448.aspx" target="_blank">Chess-Results Tancat MC</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr1116449.aspx" target="_blank">Chess-Results Tancat Grup A</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr1116450.aspx" target="_blank">Chess-Results Tancat Grup B</a> 
