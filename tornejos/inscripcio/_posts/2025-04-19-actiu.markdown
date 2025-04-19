@@ -1,0 +1,70 @@
+---
+layout: post
+title: "II Obert Internacional d'Escacs Actius Poble-Sec"
+image: /assets/images/2025-04-19-actiu.jpeg
+skipTitle: true
+published: true
+---
+
+{% if page.categories contains 'finalitzats' %}
+Finalitzat
+{% elsif page.categories contains 'enjoc' %}
+En joc
+{% elsif page.categories contains 'inscripcio' %}
+**Sistema i ritme de joc:**
+
+15 minuts + 5 segons per jugada.
+
+Vàlid per Elo FIDE Ràpid i Elo Català Ràpid.
+
+Podran participar tots aquells jugadors amb llicència federativa en vigor i disposin de codi FIDE. En cas de no tenir codi FIDE, cal posar-se en contacte amb l'organització el dia 18 de juny, com a molt tard.
+
+La organització es reserva el dret d'admissió.
+
+**Inscripcions:**
+
+- General: 25€
+- Menors de 16 anys (nascuts el 2009 i posterior): 20€
+- Majors de 65 anys: 20€
+- Persones amb discapacitat (reconeguda per la FCdE): 15€
+- Socis de l'Escacs Comtal Club: 15€
+
+Queden exempts del pagament aquells jugadors convidats per la organització.
+
+Places limitades per ordre d'inscripció.
+
+<a class="button is-success" href="https://forms.gle/7RS23kkkb3FcQFnh9" target="_blank">Formulari d'inscripció</a>
+
+**Premis:**
+
+2.015€ en total. Els premis estan subjectes a les retencions segons la legislació vigent.
+
+**Horaris i dies de joc:**
+
+Dissabte 21 de Juny de 2025 a les 9:30 hores.
+
+9 rondes a Sistema Suís.
+
+- Matí: 5 rondes. Inici de la 1a ronda a les 9:30 hores.
+- Tarda: 4 rondes. Inici de la 6a ronda a les 16:00 hores.
+
+**Local de joc:**
+
+A la sala d'actes del Centre cívic el Sortidor: **Plaça del Sortidor 12, Barcelona**.
+
+Metro L3 Poble-Sec o Paral·lel. Bus V9.
+
+Local habilitat per persones amb mobilitat reduïda.
+
+**Organitza l'ESCACS COMTAL CLUB**
+
+**DIRECTORS DEL TORNEIG:** Gerard Rodríguez i Joan Xancó
+
+**ÀRBITRE PRINCIPAL:** AI Vladimir Zaiats
+
+<a class="button is-success" href="https://forms.gle/7RS23kkkb3FcQFnh9" target="_blank">Inscripció</a>
+
+<a class="button is-info" href="/assets/docs/2025-actiu.pdf" target="_blank">Bases</a>
+
+{% endif %}
+
