@@ -18,5 +18,17 @@ enabled: true
         </a>
         {% endfor %}
     </div>
-
+    <hr>
+    <div class="column is-12">
+      <div class="content">
+        <h1>En joc</h1>
+      </div>
+    </div>
+    <div class="columns is-multiline">
+        {% for post in site.categories.enjoc %}
+        <a href="{{post.url}}" class="column is-4">
+          {% include post-card.html %}
+        </a>
+        {% endfor %}
+    </div>
 </div>
