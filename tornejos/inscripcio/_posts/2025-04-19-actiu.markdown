@@ -66,5 +66,7 @@ Local habilitat per persones amb mobilitat reduïda.
 
 <a class="button is-info" href="/assets/docs/2025-actiu.pdf" target="_blank">Bases</a> <a class="button is-info" href="/assets/docs/2024-05-25-actiu-english.pdf" target="_blank">🇬🇧 Rules</a>
 
+<a class="button is-warning" href="https://chess-results.com/tnr1202762.aspx" target="_blank">Chess-Results</a>
+
 {% endif %}
 
