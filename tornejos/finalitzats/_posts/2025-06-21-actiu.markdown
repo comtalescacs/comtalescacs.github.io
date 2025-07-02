@@ -1,0 +1,114 @@
+---
+layout: post
+title: "II Obert Internacional d'Escacs Actius Poble-Sec"
+image: /assets/images/2025-actiu/normal.jpeg
+skipTitle: true
+published: true
+---
+
+{% if page.categories contains 'finalitzats' %}
+
+## Rècord de participació en el II Obert Internacional d'Escacs Actius del Poble-sec
+
+El dissabte 21 de juny del 2025 va tenir lloc a Barcelona el II Obert Internacional d'Escacs Actius del Poble-sec. Consolidant la nostra presència en el Circuit Català d'Oberts Internacionals, una fita molt important per l'entitat que vol deixar empremta en els escacs catalans.
+
+La 2a edició ha estat tot un èxit, superant totes les expectatives i arribant al límit de l'aforament, reunint a **159 jugadors** d'arreu de Catalunya i d'altres d'internacionals. Concretament, hi havia **15 banderes diferents** corresponents a: Catalunya, Espanya, Argentina, Xile, Perú, Colòmbia, India, Cuba, Xina, Veneçuela, França, Ucraïna, Alemanya, Mèxic i Bèlgica. A més, hem comptat amb la presència de **30 jugadors titulats**, entre ells, sis Grans Mestres, deu Mestres Internacionals, set Mestres FIDE i set Mestres Catalans. Demostrant tot l'alt nivell competitiu que hi havia en el torneig.
+
+A dos quarts de deu vam començar la primera ronda al centre cívic El Sortidor, lloc habitual on el nostre club, l'Escacs Comtal Club, fa vida durant tot l'any.
+
+La jornada es va disputar amb normalitat, es respirava un gran ambient entre tots els jugadors que van gaudir d'un dia excepcional.
+
+El ritme de les partides va ser de **15 minuts per a cada jugador més 5 segons d'increment per jugada**. És a dir, un ritme ràpid que va dividir el torneig a cinc rondes al matí i quatre a la tarda, fent que el campionat finalitzés passades les set del vespre.
+
+### Resultats
+
+El **GM Tomás Sosa** es va proclamar vencedor de forma incontestable amb **8 punts de 9**, enduent-se el **trofeu Josep Devesa** en honor al nostre primer president el 1923. En el podi el van acompanyar el **GM Cristóbal Henríquez**, en 2a posició i 7,5 punts, i el **MI Crisitan Andrés Hernández** en 3a posició i també 7'5 punts.
+
+El **trofeu Pepita Ferrer a la Millor Jugadora** se'l va endur la jugadora xinesa **Tianlu Peng** amb 6 punts.
+
+Tots els trofeus que es van repartir, incloent-hi els d'edats, duien el nom dels jugadors i figures més rellevants del club que té 102 anys d'història.
+
+### Participació local
+
+Una vegada més, la participació dels socis del Comtal va ser excepcional i hi van jugar més d'una vintena. En **Daniel Santos** es va alçar amb el **trofeu Plàcid Soler a millor jugador local** i en **Felix Hoffet** va guanyar un premi per quedar segon classificat en el tram E.
+
+### Agraïments
+
+Volem donar les gràcies a tots els jugadors i jugadores per l'excel·lent acollida que va tenir el torneig.
+
+No volem deixar d'agrair la presència del **president de la Federació Catalana d'Escacs, en Ramon Chalmeta**, que a més de jugar, va estar present a l'entrega de premis. No podem oblidar que enguany la Federació fa 100 anys i que la presència de la nostra entitat en aquesta fita és molt important perquè l'Escacs Comtal Club és un dels fundadors.
+
+Finalment, volem agrair l'exitosa feina de l'equip arbitral, en **Manuel Navarro** i en **Ricard Llerins**, sense oblidar en **Vladimir Zaiats** que ens va ajudar enormement, però que no hi va estar present per raons personals.
+
+Continuarem treballant per millorar en la pròxima edició i fer créixer els escacs en el nostre estimat barri, el Poble-sec.
+
+<div class="has-text-centered" style="margin-top: 2rem;">
+    <a href="https://drive.google.com/drive/folders/1E0ntMXN3H1dMOw5XXcBr4DdULvgdLnul" target="_blank" class="button is-link is-large">
+        <span>📸 Més fotos al Google Drive</span>
+    </a>
+    <p class="is-size-7 has-text-grey" style="margin-top: 0.5rem;">
+        <em>Galeria completa amb totes les fotos del torneig</em>
+    </p>
+</div>
+
+{% elsif page.categories contains 'enjoc' %}
+En joc
+{% elsif page.categories contains 'inscripcio' %}
+**Sistema i ritme de joc:**
+
+15 minuts + 5 segons per jugada.
+
+Vàlid per Elo FIDE Ràpid i Elo Català Ràpid.
+
+Podran participar tots aquells jugadors amb llicència federativa en vigor i disposin de codi FIDE. En cas de no tenir codi FIDE, cal posar-se en contacte amb l'organització el dia 18 de juny, com a molt tard.
+
+La organització es reserva el dret d'admissió.
+
+**Inscripcions:**
+
+- General: 25€
+- Menors de 16 anys (nascuts el 2009 i posterior): 20€
+- Majors de 65 anys: 20€
+- Persones amb discapacitat (reconeguda per la FCdE): 15€
+- Socis de l'Escacs Comtal Club: 15€
+
+Queden exempts del pagament aquells jugadors convidats per la organització.
+
+Places limitades per ordre d'inscripció.
+
+<a class="button is-success" href="https://forms.gle/7RS23kkkb3FcQFnh9" target="_blank">Formulari d'inscripció</a>
+
+**Premis:**
+
+2.015€ en total. Els premis estan subjectes a les retencions segons la legislació vigent.
+
+**Horaris i dies de joc:**
+
+Dissabte 21 de Juny de 2025 a les 9:30 hores.
+
+9 rondes a Sistema Suís.
+
+- Matí: 5 rondes. Inici de la 1a ronda a les 9:30 hores.
+- Tarda: 4 rondes. Inici de la 6a ronda a les 16:00 hores.
+
+**Local de joc:**
+
+A la sala d'actes del Centre cívic el Sortidor: **Plaça del Sortidor 12, Barcelona**.
+
+Metro L3 Poble-Sec o Paral·lel. Bus V9.
+
+Local habilitat per persones amb mobilitat reduïda.
+
+**Organitza l'ESCACS COMTAL CLUB**
+
+**DIRECTORS DEL TORNEIG:** Gerard Rodríguez i Joan Xancó
+
+**ÀRBITRE PRINCIPAL:** AI Vladimir Zaiats
+
+<a class="button is-success" href="https://forms.gle/7RS23kkkb3FcQFnh9" target="_blank">Inscripció</a>
+
+<a class="button is-info" href="/assets/docs/2025-actiu.pdf" target="_blank">Bases</a> <a class="button is-info" href="/assets/docs/2024-05-25-actiu-english.pdf" target="_blank">🇬🇧 Rules</a>
+
+<a class="button is-warning" href="https://chess-results.com/tnr1202762.aspx" target="_blank">Chess-Results</a>
+
+{% endif %} 

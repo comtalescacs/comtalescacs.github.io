@@ -13,7 +13,19 @@ layout: default
   <div class="columns">
     {% if page.image %}
     <div class="column is-4">
-      <img src="{{ page.image }}" alt="{{ page.title }}">
+      <img src="{{ page.image }}" alt="{{ page.title }}" style="margin-bottom: 1.5rem;">
+      
+      {% if page.title contains "II Obert Internacional d'Escacs Actius" %}
+      <!-- Galeria additional per al torneig actiu 2025 -->
+      <div style="margin-top: 1rem;">
+        <figure class="image" style="margin-bottom: 1rem;">
+          <img src="/assets/images/2025-actiu/premis.jpeg" alt="Entrega de premis del II Obert Internacional">
+        </figure>
+        <p class="is-size-7 has-text-grey has-text-centered" style="margin-bottom: 1.5rem;">
+          <em>Entrega de premis amb la presència del president de la FCE</em>
+        </p>
+      </div>
+      {% endif %}
     </div>
     <div class="column is-8">
       {{ content }}
@@ -25,5 +37,7 @@ layout: default
     {% endif %}
     
   </div>
-  <p>Publicat el {{ page.date | date: "%d/%m/%Y" }}</p>
+  <div class="has-text-centered" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e0e0e0;">
+    <p class="has-text-grey is-size-6">Publicat el {{ page.date | date: "%d/%m/%Y" }}</p>
+  </div>
 </div>
