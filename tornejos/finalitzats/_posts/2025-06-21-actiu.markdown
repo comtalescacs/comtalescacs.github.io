@@ -43,12 +43,12 @@ Finalment, volem agrair l'exitosa feina de l'equip arbitral, en **Manuel Navarro
 Continuarem treballant per millorar en la pròxima edició i fer créixer els escacs en el nostre estimat barri, el Poble-sec.
 
 <div class="has-text-centered" style="margin-top: 2rem;">
-    <a href="https://drive.google.com/drive/folders/1E0ntMXN3H1dMOw5XXcBr4DdULvgdLnul" target="_blank" class="button is-link is-large">
+    <a href="https://drive.google.com/drive/folders/1E0ntMXN3H1dMOw5XXcBr4DdULvgdLnul" target="_blank" class="button is-link is-large" style="margin-right: 1rem;">
         <span>📸 Més fotos al Google Drive</span>
     </a>
-    <p class="is-size-7 has-text-grey" style="margin-top: 0.5rem;">
-        <em>Galeria completa amb totes les fotos del torneig</em>
-    </p>
+    <a href="https://chess-results.com/tnr1202762.aspx?lan=1&art=1&rd=9" target="_blank" class="button is-primary is-large">
+        <span>🏆 Classificació final completa</span>
+    </a>
 </div>
 
 {% elsif page.categories contains 'enjoc' %}
