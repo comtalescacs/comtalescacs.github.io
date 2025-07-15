@@ -16,13 +16,7 @@ Ritme: 3 minuts + 2 segons d'increment per jugada.
 
 **Inscripcions:**
 
-[Formulari d'inscripció](https://docs.google.com/forms/d/e/1FAIpQLSf1wrFTKgc8ZCGBliqM_Med-PaijU7TFRvL7P-t4suN_9VNvA/viewform) o 30 minuts abans. Aforament limitat a 80 jugadors.
-
-Més informació a comtalescacs@gmail.com
-
-**Bases:**
-
-[Bases oficials del torneig](https://docs.google.com/document/u/0/d/1qiCKnqQ7rOeetuU7zCDfA-idcBdpapMVWg0-LqjzeQE/mobilebasic)
+Aforament limitat a 80 jugadors. Més informació a comtalescacs@gmail.com
 
 **Premis:**
 
@@ -43,3 +37,16 @@ Millor local.
 **Horaris i dia de joc:**
 
 Divendres 25 de Juliol a les 18:00-20:00 a la **Plaça dels Ocellets**.
+
+<div style="margin-top: 2rem;margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1wrFTKgc8ZCGBliqM_Med-PaijU7TFRvL7P-t4suN_9VNvA/viewform" target="_blank" class="button is-primary is-large">
+        <span>📝 Formulari d'inscripció</span>
+    </a>
+    <a href="https://docs.google.com/document/u/0/d/1qiCKnqQ7rOeetuU7zCDfA-idcBdpapMVWg0-LqjzeQE/mobilebasic" target="_blank" class="button is-primary is-large">
+        <span>📋 Bases oficials</span>
+    </a>
+    <a href="https://s2.chess-results.com/tnrWZ.aspx?lan=1&tno=1213489" target="_blank" class="button is-primary is-large">
+        <span>🏆 Chess-Results</span>
+    </a>
+</div>
+
