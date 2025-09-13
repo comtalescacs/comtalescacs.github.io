@@ -6,37 +6,7 @@ enabled: true
 
 <div class="container">
 
-    <!-- Featured Tournament Highlight -->
-    <section class="hero is-info is-medium" style="margin-bottom: 3rem; margin: 0 -1.5rem 3rem -1.5rem;">
-        <a href="/tornejos/finalitzats/2025/06/21/actiu.html" style="text-decoration: none; color: inherit;">
-            <div class="hero-body" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/assets/images/2025-actiu/normal.jpeg') center/cover; padding: 3rem 1.5rem;">
-                <div class="container">
-                    <div class="columns is-vcentered">
-                        <div class="column is-8-desktop is-12-mobile">
-                            <h1 class="title is-2-desktop is-3-mobile has-text-white">
-                                🏆 II Obert Internacional d'Escacs Actius Poble-Sec
-                            </h1>
-                            <h2 class="subtitle is-4-desktop is-5-mobile has-text-white">
-                                Rècord de participació amb 159 jugadors de 15 nacionalitats
-                            </h2>
-                            <div class="content has-text-white">
-                                <p><strong>✨ Èxit total del nostre torneig internacional</strong></p>
-                                <ul>
-                                    <li>🌍 <strong>159 jugadors</strong> d'arreu del món</li>
-                                    <li>🏅 <strong>30 jugadors titulats</strong> incloent 6 Grans Mestres</li>
-                                    <li>🚩 <strong>15 banderes diferents</strong> representades</li>
-                                    <li>🏆 <strong>GM Tomás Sosa</strong> campió amb 8/9 punts</li>
-                                </ul>
-                            </div>
-                            <div class="button is-warning is-large-desktop is-medium-mobile">
-                                <span>🏆 Crònica completa</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </section>
+
 
     {% assign all_inscripcio = site.categories.inscripcio %}
     {% assign all_enjoc = site.categories.enjoc %}
@@ -62,7 +32,7 @@ enabled: true
     
     {% for post in all_finalitzats %}
         {% assign post_year = post.date | date: '%Y' | plus: 0 %}
-        {% if post_year >= 2025 %}
+        {% if post_year >= 2025 and post.url != '/tornejos/finalitzats/2025/06/21/actiu.html' %}
             {% assign finalitzats_posts = finalitzats_posts | push: post %}
         {% endif %}
     {% endfor %}
@@ -109,6 +79,39 @@ enabled: true
         <h1>Tornejos finalitzats</h1>
       </div>
     </div>
+    
+    <!-- Featured Tournament Highlight -->
+    <section class="hero is-info is-medium" style="margin-bottom: 3rem; margin: 0 -1.5rem 3rem -1.5rem;">
+        <a href="/tornejos/finalitzats/2025/06/21/actiu.html" style="text-decoration: none; color: inherit;">
+            <div class="hero-body" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/assets/images/2025-actiu/normal.jpeg') center/cover; padding: 3rem 1.5rem;">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-8-desktop is-12-mobile">
+                            <h1 class="title is-2-desktop is-3-mobile has-text-white">
+                                🏆 II Obert Internacional d'Escacs Actius Poble-Sec
+                            </h1>
+                            <h2 class="subtitle is-4-desktop is-5-mobile has-text-white">
+                                Rècord de participació amb 159 jugadors de 15 nacionalitats
+                            </h2>
+                            <div class="content has-text-white">
+                                <p><strong>✨ Èxit total del nostre torneig internacional</strong></p>
+                                <ul>
+                                    <li>🌍 <strong>159 jugadors</strong> d'arreu del món</li>
+                                    <li>🏅 <strong>30 jugadors titulats</strong> incloent 6 Grans Mestres</li>
+                                    <li>🚩 <strong>15 banderes diferents</strong> representades</li>
+                                    <li>🏆 <strong>GM Tomás Sosa</strong> campió amb 8/9 punts</li>
+                                </ul>
+                            </div>
+                            <div class="button is-warning is-large-desktop is-medium-mobile">
+                                <span>🏆 Crònica completa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+    
     <div class="columns is-multiline">
         {% for post in finalitzats_posts limit:6 %}
         <a href="{{post.url}}" class="column is-4">
