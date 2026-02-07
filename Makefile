@@ -10,7 +10,7 @@ PORT ?= 4000
 JEKYLL_ENV ?= development
 
 # Ruby version to use
-RUBY_VERSION ?= 3.1.4
+RUBY_VERSION ?= 3.4.8
 
 all: setup install build serve
 
@@ -45,7 +45,7 @@ setup: check-rbenv
 	@eval "$$(rbenv init -)" && gem install bundler
 
 # Create a marker file to track if gems need to be reinstalled
-.gems_installed: Gemfile Gemfile.lock
+.gems_installed: Gemfile
 	@echo "Installing dependencies..."
 	@eval "$$(rbenv init -)" && bundle install
 	@touch .gems_installed
@@ -91,4 +91,4 @@ help:
 	@echo "Options:"
 	@echo "PORT=4000           - Set custom port (default: 4000)"
 	@echo "JEKYLL_ENV=production - Set Jekyll environment (default: development)"
-	@echo "RUBY_VERSION=3.1.4    - Set Ruby version to use (default: 3.1.4)" 
+	@echo "RUBY_VERSION=3.4.8    - Set Ruby version to use (default: 3.4.8)" 
