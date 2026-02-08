@@ -13,12 +13,14 @@ toc:
         url: /assets/docs/estatuts.pdf
   # - title: Tornejos
   #   url: /tornejos/
-  - title: Lliga Catalana 2024
-    subfolderitems:
-      - page: Calendari
-        url: /lliga/calendari
-      - page: Adreces dels locals de joc
-        url: /lliga/adreces
+  # - title: Lliga Catalana 2024
+  #   subfolderitems:
+  #     - page: Calendari
+  #       url: /lliga/calendari
+  #     - page: Adreces dels locals de joc
+  #       url: /lliga/adreces
+  - title: Classes
+    url: /classes
   - title: Fes-te'n soci
     url: /soci
   - title: Contacte
