@@ -14,3 +14,13 @@ $family-sans-serif: 'Lato', sans-serif;
 @import "bulma/sass/grid/_all";
 @import "bulma/sass/helpers/_all";
 @import "bulma/sass/layout/_all";
+
+.navigation .navbar > .container {
+  @media screen and (min-width: 1024px) {
+    align-items: flex-start;
+
+    .navbar-menu {
+      padding-top: 0.75rem;
+    }
+  }
+}
