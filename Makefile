@@ -1,10 +1,14 @@
 # Makefile for the Escacs Comtal Club website
 # Uses Jekyll to build and serve the site locally with rbenv for Ruby version management
 
-.PHONY: install build serve clean all setup rbenv-setup check-rbenv
+.PHONY: install build serve clean all setup rbenv-setup check-rbenv venv update-ordre-forces
 
 # Default port for the Jekyll server
 PORT ?= 4000
+
+# Python venv for site maintenance scripts (Linux)
+VENV ?= .venv
+PYTHON ?= $(VENV)/bin/python
 
 # Default environment
 JEKYLL_ENV ?= development
@@ -68,6 +72,14 @@ build-serve: install
 	@echo "Building and serving site..."
 	@eval "$$(rbenv init -)" && JEKYLL_ENV=$(JEKYLL_ENV) bundle exec jekyll serve --livereload --port $(PORT)
 
+# Python virtualenv and ordre de forces images (see scripts/update_ordre_forces.py)
+venv:
+	@test -d $(VENV) || python3 -m venv $(VENV)
+	@$(VENV)/bin/pip install -q -r requirements.txt
+
+update-ordre-forces: venv
+	@$(PYTHON) scripts/update_ordre_forces.py
+
 # Clean build artifacts
 clean:
 	@echo "Cleaning up _site directory..."
@@ -87,6 +99,8 @@ help:
 	@echo "make build-serve - Install dependencies, build and immediately serve the site"
 	@echo "make clean       - Remove generated files"
 	@echo "make all         - Complete setup, install, build and serve"
+	@echo "make venv                  - Create .venv and pip install requirements.txt"
+	@echo "make update-ordre-forces   - Fetch FCE PDF and refresh assets/images/ordre-forces_COM-*.png"
 	@echo ""
 	@echo "Options:"
 	@echo "PORT=4000           - Set custom port (default: 4000)"

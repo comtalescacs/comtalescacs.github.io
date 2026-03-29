@@ -1,0 +1,2 @@
+# Python tooling (ordre de forces update script)
+pymupdf>=1.24,<2
