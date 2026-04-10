@@ -6,8 +6,6 @@ enabled: true
 
 <div class="container">
 
-
-
     {% assign all_inscripcio = site.categories.inscripcio %}
     {% assign all_enjoc = site.categories.enjoc %}
     {% assign all_finalitzats = site.categories.finalitzats %}
@@ -18,7 +16,7 @@ enabled: true
     
     {% for post in all_inscripcio %}
         {% assign post_year = post.date | date: '%Y' | plus: 0 %}
-        {% if post_year >= 2025 %}
+        {% if post_year >= 2025 and post.url != '/tornejos/inscripcio/2026/06/20/actiu.html' %}
             {% assign inscripcio_posts = inscripcio_posts | push: post %}
         {% endif %}
     {% endfor %}
@@ -37,12 +35,44 @@ enabled: true
         {% endif %}
     {% endfor %}
 
-    {% if inscripcio_posts.size > 0 %}
     <div class="column is-12">
       <div class="content">
         <h1>Propers tornejos</h1>
       </div>
     </div>
+
+    <!-- Featured: III Obert Internacional -->
+    <section class="hero is-info is-medium" style="margin-bottom: 3rem; margin: 0 -1.5rem 3rem -1.5rem;">
+        <a href="/tornejos/inscripcio/2026/06/20/actiu.html" style="text-decoration: none; color: inherit;">
+            <div class="hero-body" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/assets/images/2025-actiu/normal.jpeg') center/cover; padding: 3rem 1.5rem;">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-8-desktop is-12-mobile">
+                            <h1 class="title is-2-desktop is-3-mobile has-text-white">
+                                ♟️ III Obert Internacional d'Escacs Actius del Poble-Sec
+                            </h1>
+                            <h2 class="subtitle is-4-desktop is-5-mobile has-text-white">
+                                Dissabte 20 de juny de 2026
+                            </h2>
+                            <div class="content has-text-white">
+                                <ul>
+                                    <li>⏱️ <strong>15 min + 5 seg</strong> per jugada</li>
+                                    <li>🏆 <strong>2.320€</strong> en premis</li>
+                                    <li>📍 <strong>Centre Cívic El Sortidor</strong>, Barcelona</li>
+                                    <li>🌍 Vàlid per <strong>ELO FIDE Ràpid</strong> i <strong>ELO Català Ràpid</strong></li>
+                                </ul>
+                            </div>
+                            <div class="button is-success is-large-desktop is-medium-mobile">
+                                <span>📝 Inscripció oberta</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    {% if inscripcio_posts.size > 0 %}
     <div class="columns is-multiline">
         {% for post in inscripcio_posts %}
         <a href="{{post.url}}" class="column is-4">
