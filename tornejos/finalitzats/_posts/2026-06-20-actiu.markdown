@@ -1,0 +1,113 @@
+---
+layout: post
+title: "III Obert Internacional d'Escacs Actius del Poble-Sec"
+image: /assets/images/2026-actiu/normal.jpeg
+skipTitle: true
+published: true
+---
+
+{% if page.categories contains 'finalitzats' %}
+
+## 127 jugadors i 13 banderes en el III Obert Internacional d'Escacs Actius del Poble-sec
+
+El dissabte 20 de juny del 2026 va tenir lloc a Barcelona el III Obert Internacional d'Escacs Actius del Poble-sec, inclòs en la XXII Edició del Circuit Català d'Oberts Internacionals.
+
+Enguany, tot i coincidir amb altres tornejos en el mateix cap de setmana, vam reunir un nombre considerable de jugadors, **127 d'arreu de Catalunya i d'altres d'internacionals**. Concretament, hi havia **13 banderes diferents** corresponents a: Catalunya, Espanya, Argentina, Xile, Perú, Algèria, Armènia, Cuba, Israel, Marroc, França, Ucraïna i Mèxic. A més, hem comptat amb la presència de **31 jugadors titulats**, entre ells, sis Grans Mestres, vuit Mestres Internacionals, deu Mestres FIDE, una Mestra FIDE Femenina i un Mestre Català. Demostrant tot l'alt nivell competitiu que hi havia en el torneig.
+
+A dos quarts de deu vam començar la primera ronda al centre cívic El Sortidor, lloc habitual on el nostre club, l'Escacs Comtal Club, fa vida durant tot l'any.
+
+La jornada es va disputar amb normalitat, es respirava un gran ambient entre tots els jugadors tot i que la calor es va convertir en un fatigós protagonista.
+
+El ritme de les partides va ser de **15 minuts per a cada jugador més 5 segons d'increment per jugada**. És a dir, un ritme ràpid que va dividir el torneig a cinc rondes al matí i quatre a la tarda, fent que el campionat finalitzés just passades les set del vespre.
+
+### Resultats
+
+La primera posició va estar molt renyida amb un quàdruple empat a 7,5 punts de 9. El desempat va fer vencedor al **GM Yuri Solodovnichenko**, enduent-se el **trofeu Josep Devesa** en honor al nostre primer president.
+
+En el podi el van acompanyar el **GM Cristóbal Henríquez** en 2a posició (per segon any consecutiu) i el **MF Mauricio E. Marrujo** en 3a posició.
+
+El **trofeu Pepita Ferrer a la Millor Jugadora** se'l va endur la jugadora catalana **WFM Aramí Lobo** amb 5,5 punts.
+
+Tots els trofeus que es van repartir, incloent-hi els d'edats, duien el nom dels jugadors i figures més rellevants del club que ja té 103 anys d'història.
+
+### Participació local
+
+El jove jugador **Sherab Odsel Nepali** continua creixent com a esportista i es va alçar amb el **trofeu Plàcid Soler** com a millor jugador local. Per una altra banda, el nostre jugador **Lucas Sánchez** va guanyar un premi per quedar segon classificat en el tram E. Enhorabona a tots dos.
+
+### Agraïments
+
+Volem donar les gràcies a tots els jugadors i jugadores per l'excel·lent acollida que va tenir el torneig i especialment als nostres socis que van ajudar enormement amb el muntatge i desmuntatge de les sales de joc. També agraïm la presència al **Director del Circuit David Ayza**, que va estar present a l'entrega de premis.
+
+Finalment, volem agrair l'exitosa feina de l'equip arbitral, en **Manuel Navarro** i la **Laura Martín**, i a la Federació Catalana d'Escacs per tot el suport.
+
+Continuarem treballant per millorar en la pròxima edició i fer créixer els escacs en el nostre estimat barri, el Poble-sec.
+
+<div class="has-text-centered" style="margin-top: 2rem;">
+    <a href="https://s2.chess-results.com/tnr1388243.aspx?lan=1&art=1&rd=9" target="_blank" class="button is-primary is-large">
+        <span>🏆 Classificació final completa</span>
+    </a>
+</div>
+
+{% elsif page.categories contains 'enjoc' %}
+En joc
+{% elsif page.categories contains 'inscripcio' %}
+**Sistema i ritme de joc:**
+
+15 minuts + 5 segons per jugada.
+
+Vàlid per Elo FIDE Ràpid i Elo Català Ràpid.
+
+Podran participar tots aquells jugadors amb llicència federativa en vigor i disposin de codi FIDE. En cas de no tenir codi FIDE, cal posar-se en contacte amb l'organització el dia 18 de juny, com a molt tard.
+
+La organització es reserva el dret d'admissió.
+
+**Inscripcions:**
+
+- General: 25€
+- Menors de 16 anys (nascuts el 2010 i posterior): 20€
+- Majors de 65 anys: 20€
+- Persones amb discapacitat (reconeguda per la FCdE): 15€
+- Socis de l'Escacs Comtal Club: 15€
+
+Queden exempts del pagament aquells jugadors convidats per la organització.
+
+Places limitades per ordre d'inscripció.
+
+<a class="button is-success" href="https://tuit.cat/1mo3c" target="_blank">Formulari d'inscripció</a>
+
+**Premis:**
+
+2.320€ en total. Els premis estan subjectes a les retencions segons la legislació vigent.
+
+**Horaris i dies de joc:**
+
+Dissabte 20 de Juny de 2026 a les 9:30 hores.
+
+9 rondes a Sistema Suís.
+
+- Matí: 5 rondes. Inici de la 1a ronda a les 9:30 hores.
+- Tarda: 4 rondes. Inici de la 6a ronda a les 16:00 hores.
+
+**Local de joc:**
+
+A la sala d'actes del Centre cívic el Sortidor: **Plaça del Sortidor 12, Barcelona**.
+
+Metro L3 Poble-Sec o Paral·lel. Bus V9.
+
+Local habilitat per persones amb mobilitat reduïda.
+
+**Organitza l'ESCACS COMTAL CLUB**
+
+**DIRECTORS DEL TORNEIG:** Gerard Rodríguez i Joan Xancó
+
+**ÀRBITRE PRINCIPAL:** AI Manuel Navarro Pérez
+
+**ÀRBITRA ADJUNT:** Laura Martín Pérez
+
+<a class="button is-success" href="https://tuit.cat/1mo3c" target="_blank">Inscripció</a>
+
+<a class="button is-info" href="/assets/docs/2026-actiu.pdf" target="_blank">Bases</a> <a class="button is-info" href="/assets/docs/2026-actiu-spanish.pdf" target="_blank">🇪🇸 Bases</a> <a class="button is-info" href="/assets/docs/2026-actiu-english.pdf" target="_blank">🇬🇧 Rules</a>
+
+<a class="button is-warning" href="https://s2.chess-results.com/Tnr1388243.aspx?lan=2&SNode=S0" target="_blank">Chess-Results</a>
+
+{% endif %}
