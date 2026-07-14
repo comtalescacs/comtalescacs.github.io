@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "VI Tancats del Poble-Sec"
+description: "VI Tancats del Poble-sec: torneigs tancats round robin (grups MC, A i B) per ELO Català i FIDE, organitzats per l'Escacs Comtal Club a Barcelona."
 image: /assets/images/2026-03-29-tancats.jpeg
 skipTitle: true
 published: true

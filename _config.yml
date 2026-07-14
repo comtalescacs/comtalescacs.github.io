@@ -1,9 +1,12 @@
 url: "https://escacscomtal.cat" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Escacs Comtal Club" # the name of your site, e.g. ACME Corp.
+description: "Club d'escacs al barri del Poble-sec de Barcelona, fundat el 1923. Tornejos oberts internacionals, classes d'escacs per a totes les edats, lliga catalana i activitats al Centre Cívic El Sortidor."
 lang: "ca"
+logo: "/assets/images/logo.png"
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-paginate-v2
 future: true
 

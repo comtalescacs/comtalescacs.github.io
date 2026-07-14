@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "III Obert Internacional d'Escacs Actius del Poble-Sec"
+description: "Crònica del III Obert Internacional d'Escacs Actius del Poble-sec (20 de juny de 2026): 127 jugadors, 13 nacionalitats i 31 titulats. Victòria del GM Yuri Solodovnichenko."
 image: /assets/images/2026-actiu/normal.jpeg
 skipTitle: true
 published: true
