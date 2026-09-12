@@ -51,8 +51,30 @@ enabled: true
     </div>
     {% endif %}
 
+    {% if enjoc_posts.size > 0 %}
+    <div class="column is-12">
+      <div class="content">
+        <h1>En joc</h1>
+      </div>
+    </div>
+    <div class="columns is-multiline">
+        {% for post in enjoc_posts %}
+        <a href="{{post.url}}" class="column is-4">
+          {% include post-card.html %}
+        </a>
+        {% endfor %}
+    </div>
+    <hr>
+    {% endif %}
+
+    <div class="column is-12">
+      <div class="content">
+        <h1>Tornejos finalitzats</h1>
+      </div>
+    </div>
+
     <!-- Featured Tournament Highlight -->
-    <section class="hero is-info is-medium" style="margin: 2rem -1.5rem 3rem -1.5rem;">
+    <section class="hero is-info is-medium" style="margin: 0 -1.5rem 3rem -1.5rem;">
         <a href="/tornejos/finalitzats/2026/06/20/actiu.html" style="text-decoration: none; color: inherit;">
             <div class="hero-body" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/assets/images/2026-actiu/normal.jpeg') center/cover; padding: 3rem 1.5rem;">
                 <div class="container">
@@ -83,30 +105,7 @@ enabled: true
         </a>
     </section>
 
-    {% if enjoc_posts.size > 0 %}
-    <div class="column is-12">
-      <div class="content">
-        <h1>En joc</h1>
-      </div>
-    </div>
-    <div class="columns is-multiline">
-        {% for post in enjoc_posts %}
-        <a href="{{post.url}}" class="column is-4">
-          {% include post-card.html %}
-        </a>
-        {% endfor %}
-    </div>
     {% if finalitzats_posts.size > 0 %}
-    <hr>
-    {% endif %}
-    {% endif %}
-
-    {% if finalitzats_posts.size > 0 %}
-    <div class="column is-12">
-      <div class="content">
-        <h1>Tornejos finalitzats</h1>
-      </div>
-    </div>
     <div class="columns is-multiline">
         {% for post in finalitzats_posts limit:6 %}
         <a href="{{post.url}}" class="column is-4">
