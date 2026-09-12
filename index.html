@@ -7,38 +7,6 @@ enabled: true
 
 <div class="container">
 
-    <!-- Featured Tournament Highlight -->
-    <section class="hero is-info is-medium" style="margin-bottom: 3rem; margin: 0 -1.5rem 3rem -1.5rem;">
-        <a href="/tornejos/finalitzats/2026/06/20/actiu.html" style="text-decoration: none; color: inherit;">
-            <div class="hero-body" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/assets/images/2026-actiu/normal.jpeg') center/cover; padding: 3rem 1.5rem;">
-                <div class="container">
-                    <div class="columns is-vcentered">
-                        <div class="column is-8-desktop is-12-mobile">
-                            <h1 class="title is-2-desktop is-3-mobile has-text-white">
-                                🏆 III Obert Internacional d'Escacs Actius del Poble-Sec
-                            </h1>
-                            <h2 class="subtitle is-4-desktop is-5-mobile has-text-white">
-                                127 jugadors i 13 nacionalitats al Centre Cívic El Sortidor
-                            </h2>
-                            <div class="content has-text-white">
-                                <p><strong>✨ Una nova edició d'èxit del nostre torneig internacional</strong></p>
-                                <ul>
-                                    <li>🌍 <strong>127 jugadors</strong> d'arreu del món</li>
-                                    <li>🏅 <strong>31 jugadors titulats</strong> incloent 6 Grans Mestres</li>
-                                    <li>🚩 <strong>13 banderes diferents</strong> representades</li>
-                                    <li>🏆 <strong>GM Yuri Solodovnichenko</strong> campió amb 7,5/9 punts</li>
-                                </ul>
-                            </div>
-                            <div class="button is-warning is-large-desktop is-medium-mobile">
-                                <span>🏆 Crònica completa</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </section>
-
     {% assign all_inscripcio = site.categories.inscripcio %}
     {% assign all_enjoc = site.categories.enjoc %}
     {% assign all_finalitzats = site.categories.finalitzats %}
@@ -81,10 +49,39 @@ enabled: true
         </a>
         {% endfor %}
     </div>
-    {% if enjoc_posts.size > 0 or finalitzats_posts.size > 0 %}
-    <hr>
     {% endif %}
-    {% endif %}
+
+    <!-- Featured Tournament Highlight -->
+    <section class="hero is-info is-medium" style="margin: 2rem -1.5rem 3rem -1.5rem;">
+        <a href="/tornejos/finalitzats/2026/06/20/actiu.html" style="text-decoration: none; color: inherit;">
+            <div class="hero-body" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('/assets/images/2026-actiu/normal.jpeg') center/cover; padding: 3rem 1.5rem;">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-8-desktop is-12-mobile">
+                            <h1 class="title is-2-desktop is-3-mobile has-text-white">
+                                🏆 III Obert Internacional d'Escacs Actius del Poble-Sec
+                            </h1>
+                            <h2 class="subtitle is-4-desktop is-5-mobile has-text-white">
+                                127 jugadors i 13 nacionalitats al Centre Cívic El Sortidor
+                            </h2>
+                            <div class="content has-text-white">
+                                <p><strong>✨ Una nova edició d'èxit del nostre torneig internacional</strong></p>
+                                <ul>
+                                    <li>🌍 <strong>127 jugadors</strong> d'arreu del món</li>
+                                    <li>🏅 <strong>31 jugadors titulats</strong> incloent 6 Grans Mestres</li>
+                                    <li>🚩 <strong>13 banderes diferents</strong> representades</li>
+                                    <li>🏆 <strong>GM Yuri Solodovnichenko</strong> campió amb 7,5/9 punts</li>
+                                </ul>
+                            </div>
+                            <div class="button is-warning is-large-desktop is-medium-mobile">
+                                <span>🏆 Crònica completa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
 
     {% if enjoc_posts.size > 0 %}
     <div class="column is-12">
